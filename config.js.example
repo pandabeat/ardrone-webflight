@@ -6,6 +6,10 @@ var config = {
           , "battery"       // Display a simple battery widget in the header bar
           , "pilot"         // Pilot the drone with the keyboard
           , "blackbox"      // Experimental: Records all mision data (navData, raw video, PaVE headers, etc.)
+          , "copterface"    // Detect faces and track them by rotating the drone
+          , "gamepad"       // Controls the drone with a gamepad
+          . "trollface"     // Detect faces and overlay trollfaces on top of them
+          , "tracker"       // Track pixels on the videostream by clicking on them
         //, "replay"        // Experimental: Replay the data recorded by the blackbox
         ],
 
